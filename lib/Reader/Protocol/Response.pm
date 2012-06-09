@@ -16,6 +16,7 @@ has 'header' => (
 
 has 'content' => (
     is => 'ro',
+    isa => "Str",
     lazy => 1,
 );
 
