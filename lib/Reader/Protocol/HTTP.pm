@@ -20,23 +20,74 @@ subtype 'CookieJarHashRef',
   where { !ref($_) },
   message { "cookie_jar args must be hashref" };
 
-has 'host'       => ( is => 'rw', builder => '_default_host' );
-has 'port'       => ( is => 'rw', builder => '_default_port' );
-has 'timeout'    => ( is => 'rw', builder => '_default_timeout' );
-has 'agent'      => ( is => 'rw', builder => '_default_agent', lazy => 1 );
-has 'recurse'    => ( is => 'rw', builder => '_default_recurse', lazy => 1 );
-has 'keepalive'  => ( is => 'rw', default => 1, lazy => 1 );
-has 'HEAD'       => ( is => 'rw', builder => '_default_HEAD', lazy => 1 );
-has 'cookie_jar' => ( is => 'rw', default => sub { {} }, lazy => 1 );
-has 'headers'    => ( is => 'rw', default => sub { {} }, lazy => 1 );
-has 'method' => ( is => 'rw', default => 'GET', lazy => 1 );
-has 'uri' => ( is => 'rw', isa => 'URI', );
+has 'host' => (
+    is      => 'rw',
+    builder => '_default_host'
+);
+has 'port' => (
+    is      => 'rw',
+    builder => '_default_port'
+);
+has 'timeout' => (
+    is      => 'rw',
+    builder => '_default_timeout'
+);
+has 'agent' => (
+    is      => 'rw',
+    builder => '_default_agent',
+    lazy    => 1
+);
+has 'recurse' => (
+    is      => 'rw',
+    builder => '_default_recurse',
+    lazy    => 1
+);
+has 'keepalive' => (
+    is      => 'rw',
+    default => 1,
+    lazy    => 1
+);
+has 'HEAD' => (
+    is      => 'rw',
+    builder => '_default_HEAD',
+    lazy    => 1
+);
+has 'cookie_jar' => (
+    is      => 'rw',
+    default => sub { {} },
+    lazy    => 1
+);
+has 'headers' => (
+    is      => 'rw',
+    default => sub { {} },
+    lazy    => 1
+);
+has 'method' => (
+    is      => 'rw',
+    default => 'GET',
+    lazy    => 1
+);
+has 'uri' => (
+    is  => 'rw',
+    isa => 'URI',
+);
+has 'proxy' => (
+    is      => 'rw',
+    default => undef,
+    lazy => 1,
+);
 
 sub BUILD {
     my $self = shift;
     if ( $self->headers ) {
         $self->headers( { 'User-Agent' => $self->agent, } );
+        AnyEvent::HTTP::set_proxy $self->proxy;
     }
+}
+
+sub clear_proxy {
+    shift->proxy(undef);
+    AnyEvent::HTTP::set_proxy undef;
 }
 
 sub _default_HEAD {
@@ -172,6 +223,7 @@ sub _request {
         timeout   => $self->timeout,
         headers   => $self->headers,
         recurse   => $self->recurse,
+        cookie_jar => $self->cookie_jar,
         $args{cb},
     );
     return 1;

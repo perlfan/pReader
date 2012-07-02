@@ -1,0 +1,11 @@
+---
+scraper:
+  - process:
+      - '//*[@id="nv"]'
+      - category
+      - scraper:
+          - process:
+              - a
+              - 'links[]'
+              - link: '@href'
+                text: TEXT

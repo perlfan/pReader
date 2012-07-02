@@ -1,0 +1,1173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  <head>
+    <title> 爱看豆 (ikandou.com) | 每天投递新鲜的报纸和杂志到你的kindle </title>
+    <meta property="wb:webmaster" content="7b0a8a7d93e0bc08" />    
+    <!-- QSTDPB6ZpVe_dRBtulg_vDAh3iQ -->    
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="description" content="每天推送新鲜的杂志和报纸到你的kindle。提供电子书，报纸杂志的下载，阅读和推送服务。" />
+    <meta name="keywords" content="kindle 推送, 电子书, 杂志, 报纸, 免费, bbc, bbc中文, new york times,  rss, 订阅, mobi电子书, ipad, B&N Nook, kindle 3, kindle 4, kindle touch,新闻, kindle看新闻" />
+    <link href="/media/css/main.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/js/jquery.qtip.js"  />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/js/csrf.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>    
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19482461-5']);
+  _gaq.push(['_setDomainName', '.ikindle.mobi']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+  </head>
+  <body>
+    
+    <div id="promote">
+我们也开始<b>投递电子书</b>了!去<a href="http://ikandou.com/book/" target="_blank">万卷书</a>看看吧.
+    </div>
+    <div id="header">
+      <div id="userpanel">
+	
+	<a class="login" href="/accounts/login/">登录</a>
+        <span style="color: #ccc;">•</span>
+	<a style="color:red;" href="/accounts/register/">注册</a>
+	
+      </div>
+      <h1 id="logo">
+        <a href="/" class="logo kindle">
+	  <img src="/media/pic/ikindle0.png" alt="ikindle" border="0">
+	  </a>
+      </h1>
+      <div style="font-size: 14px; margin-top: 8px;">每天投递新鲜的报纸和杂志到你的<b style="color:#222;">kindle</b>
+	<a href="http://blog.ikindle.mobi/archives/1" style="font-size:12px;float:right;"><span style="color:red;">+</span>了解更多</a>
+      </div>
+    </div>    
+    <div id="content">
+      
+<div id="left_column" style="min-height:600px;">
+<div class="pagination" id="paginationTop">
+  <span style="text-decoration: none;">&nbsp;</span>
+</div>
+<h2 id="categoryHeader">
+  <a  class="active" href="/popular">最受欢迎</a>
+  <span style="color: #ccc;">•</span>
+  <a  href="/latest">最近更新</a>  
+  <span style="color: #ccc;">•</span>
+  <a  href="/mysubscribes">我的订阅</a>
+  <span style="color: #ccc;">•</span>
+  <a class="" href="/faq#start">常见问题</a>
+  <span style="color: #ccc;margin:0 60px;">&nbsp;</span>
+  <a class="" href="http://ikindle.uservoice.com" target="_blank">用户反馈</a>
+</h2>
+<div class="alert-message warning" style="font-size:12px;clear:both;margin-right:20px;">
+
+
+你最多可以订阅 <b>2</b> 份报纸，可以考虑<a href="/upgrade/plans/">付费订阅</a>
+<!-- 你最多可以订阅 <b>2</b> 份报纸, bravo! -->
+
+</div>
+
+
+<div class="notification">
+  
+</div>
+
+<div id="bookmark_list">
+  
+  
+  <div class="tableViewCell tableViewCellFirst" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=22>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/22">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/22">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="22" href="/book/22/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase22" href="/book/22">豆瓣经典短篇阅读</a><a href="http://douban.com/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    
+    <span title="每周投递" style="color:#888;font-size:12px;">周一投递</span>
+        
+    
+  <span class="subscribers">10391</span>
+  <div class="summary">
+    名家名篇。王小波，鲁迅，村上春树，屠格涅夫，钱钟书，林语堂。
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  <div class="label-free">
+    <a class="tooltip" title="标记为无限制订阅的杂志不受订阅数量的限制，可以免费订阅。" style="color:white;text-decoration:none;">无限制订阅</a>
+  </div>
+  
+  
+  <span class="tagging">
+  
+  </span>
+  <a href="/books/dbnv/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:21 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;27246</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/22" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">6469</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=3>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/3">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/3">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="3" href="/book/3/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase3" href="/book/3">南方周末-热点新闻</a><a href="http://www.infzm.com/news.shtml" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    
+    <span title="每周投递" style="color:#888;font-size:12px;">周一投递</span>
+        
+    
+  <span class="subscribers">7485</span>
+  <div class="summary">
+    在这里 读懂中国
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/nfzm/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:12 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;20955</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/3" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">7139</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=19>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/19">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/19">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="19" href="/book/19/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase19" href="/book/19">TIME</a><a href="http://www.time.com/time" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">7189</span>
+  <div class="summary">
+    时代周刊是美国影响最大的新闻周刊，有世界“史库”之称。辟有多种栏目，如经济、教育、法律、批评、体育、宗教、医药、艺术、人物、书评和读者来信等。
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  <a class="tag" href="/tag/2">
+    英文
+  </a>
+  
+  </span>
+  <a href="/books/time/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">20:02 07-05</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;25471</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/19" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">7866</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=18>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/18">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/18">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="18" href="/book/18/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase18" href="/book/18">联合早报</a><a href="http://www.zaobao.com/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">6479</span>
+  <div class="summary">
+    联合早报网是海外最重要的权威新闻网站，以第三只眼看大中华，客观新闻和深度评析是众多亚太区读者的最爱。
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/lhzb/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:16 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;23381</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/18" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">7435</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=9>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/9">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/9">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="9" href="/book/9/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase9" href="/book/9">南都周刊</a><a href="http://www.nbweekly.com/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    
+    <span title="每周投递" style="color:#888;font-size:12px;">周一投递</span>
+        
+    
+  <span class="subscribers">5827</span>
+  <div class="summary">
+    中国新锐城市杂志。中国唯一一份以城市为关注对象的新闻杂志。新锐的观点、故事文本的新闻呈现形式契合城市中坚的阅读习惯与精神气质，是城市高端人群的品质读物。 和南方周末一样犀利
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/nbweekly/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:15 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;18088</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/9" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">5841</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=11>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/11">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/11">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="11" href="/book/11/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase11" href="/book/11">The New York Times</a><a href="http://www.nytimes.com/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">5718</span>
+  <div class="summary">
+    The New York Times（纽约时报）是一份在美国纽约出版的报纸，在全世界发行.
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  <a class="tag" href="/tag/2">
+    英文
+  </a>
+  
+  </span>
+  <a href="/books/nytimes/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">20:02 07-05</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;17601</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/11" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">6977</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=2>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/2">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/2">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="2" href="/book/2/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase2" href="/book/2">BBC 中文新闻</a><a href="http://www.bbc.co.uk/chinese/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">4630</span>
+  <div class="summary">
+    BBC新闻中文版
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/bbc_chinese/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:08 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;17176</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/2" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">6144</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=21>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/21">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/21">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="21" href="/book/21/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase21" href="/book/21">Harvard Buiness Review</a><a href="http://hbr.org/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    
+    <span title="每周投递" style="color:#888;font-size:12px;">周一投递</span>
+        
+    
+  <span class="subscribers">4206</span>
+  <div class="summary">
+    哈佛商业评论（ Harvard Business Review，简称HBR ）是全球顶尖的管理杂志，也是哈佛商学院的标志性刊物，创刊于1922年。
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/7">
+    管理
+  </a>
+  
+  <a class="tag" href="/tag/2">
+    英文
+  </a>
+  
+  </span>
+  <a href="/books/hbr/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:03 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;12111</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/21" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">4327</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=1>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/1">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/1">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="1" href="/book/1/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase1" href="/book/1">The BBC ( 英文原版)</a><a href="http://www.bbc.co.uk/news/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">4158</span>
+  <div class="summary">
+    BBC新闻英文版: Global news and current affairs from the British Broadcasting Corporation
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  <a class="tag" href="/tag/2">
+    英文
+  </a>
+  
+  </span>
+  <a href="/books/bbc/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:12 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;12108</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/1" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">5213</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=17>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/17">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/17">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="17" href="/book/17/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase17" href="/book/17">鲜果每日精选</a><a href="http://xianguo.com/feed/577255" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">3745</span>
+  <div class="summary">
+    每日鲜果精选,文章质量非常不错
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/mrxg/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:20 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;12890</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/17" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">5651</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=8>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/8">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/8">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="8" href="/book/8/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase8" href="/book/8">科学松鼠会</a><a href="http://songshuhui.net/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">2679</span>
+  <div class="summary">
+    科学松鼠会是一个汇聚了当代最优秀的华语青年科学传播者的非营利机构，旨在剥开科学的坚果，帮助人们领略科学之美妙
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/3">
+    科技
+  </a>
+  
+  </span>
+  <a href="/books/kxssh/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">20:02 07-05</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;7767</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/8" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">2739</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=24>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/24">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/24">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="24" href="/book/24/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase24" href="/book/24">译言</a><a href="http://www.yeeyan.org/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">2623</span>
+  <div class="summary">
+    发现，翻译，阅读中文之外的互联网精华
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  </span>
+  <a href="/books/yeeyan/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:07 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;10880</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/24" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">3407</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=16>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/16">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/16">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="16" href="/book/16/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase16" href="/book/16">果壳网</a><a href="http://guokr.com" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">2263</span>
+  <div class="summary">
+    果壳网：科技有意思
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/4">
+    IT
+  </a>
+  
+  </span>
+  <a href="/books/guokr/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:10 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;6836</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/16" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">2787</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+  
+    <div class="tableViewCell" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=10>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/10">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/10">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="10" href="/book/10/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase10" href="/book/10">engadget中国版</a><a href="http://cn.engadget.com/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">2211</span>
+  <div class="summary">
+    Engadget的中文站点，报道计算机硬件，数码/消费电子产品，科技新闻。
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/4">
+    IT
+  </a>
+  
+  </span>
+  <a href="/books/engadget/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">20:02 07-05</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;7649</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/10" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">3184</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+    
+    <div class="tableViewCell tableViewCellLast" id="tableViewCell176832828">
+    
+    
+
+<div class="cornerControls" idnum=4>
+  <a title="现在推送到我的kindle" class="actionButton textButton" id="text176832828" href="/pushto/kindle/4">推送</a>
+  
+  <a title="订阅这本杂志，每天推送到我的kindle" class="subscribe actionButton archiveButton" id="skip176832828" href="/subscribe/book/4">订阅</a>
+  
+</div> <!-- cornerControls -->
+<div class="likeBox">
+  
+  <a class="like tooltip" pk="4" href="/book/4/like" title="你登录后就可以喜欢这本杂志了"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png"></img></a>
+  
+</div>
+<div class="titleRow">
+  <a class="tableViewCellTitleLink" name="bookbase4" href="/book/4">新浪新闻中心</a><a href="http://news.sina.com.cn/" class="orig_link" target="_blank"><img src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/external.png"></img></a>
+    
+    <span title="每日投递" style="color:#888;font-size:12px;">每日投递</span>
+    
+        
+    
+  <span class="subscribers">2142</span>
+  <div class="summary">
+    新浪新闻中心
+  </div>
+</div>
+<div class="secondaryControls" id="secondaryControls176832828">
+  
+  
+  
+  
+  <span class="tagging">
+  
+  <a class="tag" href="/tag/1">
+    新闻
+  </a>
+  
+  </span>
+  <a href="/books/sina/feed_0/index.html" style="color:#D14836;font-size:12px;" title="你现在可以直接通过网页阅读了">阅读</a>
+  <span class="host">13:14 07-06</span>
+  <span class="separator">•</span>
+  <span class="host">推送&nbsp;6876</span>
+  <span class="separator">•</span>
+  <a class="actionLink" href="/download/book/4" title="下载(mobi格式)" href="#">下载</a><span style="color:#666; font-size:11px;padding-left:2px;">1981</span>
+  <!-- <span class="separator">•</span> -->
+  <!-- <a class="actionLink deleteLink" title="Permanently delete" id="dele176832828" style="color: #770000;" href="">预览</a> -->
+</div> <!-- secondaryControls -->
+<div class="clear">&nbsp;</div>
+
+  </div>
+  
+    <div class="fr viewmore">
+      
+
+<div class="pagination">
+    
+        <span class="disabled prev">&lsaquo;&lsaquo; 前一页</span>
+    
+    
+        
+            
+                <span class="current page">1</span>
+            
+        
+    
+        
+            
+                <a href="?page=2" class="page">2</a>
+            
+        
+    
+        
+            
+                <a href="?page=3" class="page">3</a>
+            
+        
+    
+    
+        <a href="?page=2" class="next">下一页&rsaquo;&rsaquo;</a>
+    
+</div>
+
+
+    </div>
+</div>
+    
+</div>
+<div id="right_column">
+   <div id="ad">
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium"></g:plusone>
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'zh-CN'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>     
+   <!--   <a href="" style="font-size:12px;"></a>&nbsp;&nbsp;卓越网 -->
+   <!-- <br /> -->
+   <!--  -->
+   </div>
+   
+   <div id="gads" style="font-size:12px;">
+     <br />
+     <br />
+     <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9092631985506649";
+/* 200x200 */
+google_ad_slot = "4120730842";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+   </div>
+   <div id="tags">
+     <h3 class="section_header" style="margin-bottom:8px;">TAGS</h3>
+     
+     <li>
+       <a class="tag" href="/tag/4">IT</a><span style="color:#666;"> x 10</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/6">博客</a><span style="color:#666;"> x 5</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/1">新闻</a><span style="color:#666;"> x 10</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/5">法语</a><span style="color:#666;"> x 1</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/3">科技</a><span style="color:#666;"> x 1</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/7">管理</a><span style="color:#666;"> x 1</span>
+     </li>
+     
+     <li>
+       <a class="tag" href="/tag/2">英文</a><span style="color:#666;"> x 4</span>
+     </li>
+     
+   </div>
+   <div id="bookmarkListDeckAdPlaceholder" style="height: 200px;">
+   <h3 class="section_header" style="margin: 0 0 5px 0;">Subscribe with</h3>
+   <a title="rss订阅，我们会及时发送更新给你" href="http://feeds.feedburner.com/ikindlemobi"><img width="16px;" src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/rss.png"></img> </a>
+   <a title="rss订阅，我们会及时发送更新给你" class="rss" href="http://feeds.feedburner.com/ikindlemobi">RSS订阅</a>
+   <p style="margin-bottom: -6px; padding:0;"></p>
+   <!-- <a title="rss订阅，我们会及时发送更新给你" href="http://feeds.feedburner.com/ikindlemobi"> </a> -->
+   
+   <a title="我们会将最新添加杂志的样刊投递一份到你的kindle,你可以阅读后决定是否订阅." class="rss tooltip" href="/register/kindle"><img width="16px;" src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/kindle.png"></img></a></a>
+   <a title="我们会将最新添加杂志的样刊投递一份到你的kindle,你可以阅读后决定是否订阅." class="rss tooltip" href="/register/kindle">kindle订阅</a>
+   
+   <span style="font-size:16px; color:#a44;">5725</span>
+   <p style="margin-bottom: -6px; padding:0;"></p>   
+   <a title="在新浪微薄关注我们" class="rss" href="http://weibo.com/ikindle4u"><img width="16px;" src="http://blog.ikindle.mobi/wp-content/themes/albeo/images/weibo-logo.gif"></img></a>
+   <a title="在新浪微薄关注我们" class="rss" href="http://weibo.com/ikindle4u">关注我们</a>   
+   <p style="border-bottom: 1px #ccc solid;padding-top:2px;margin-top:-1px;"/>&nbsp;</p>
+<a target="_blank" href="/book/donate">捐助我们</a>
+<p style="color:#444;font-size:12px;">
+     你现在也可以通过<span style="background-color:#ffc;">支付宝捐助</span>我们了，你可以考虑帮我们买<a style="color:#AE0000;" target="_blank" href="/book/donate">一杯咖啡，一块馅饼或者一米阳光...</a></a>.
+</p>
+   <p>
+   <a href="http://blog.ikindle.mobi">blog</a>
+   </p>
+  <p>
+   <a style="font-size:12px;" href="http://blog.ikindle.mobi/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC">联系我们</a>
+   </p>
+</div>
+<script type="text/javascript">
+  var uvOptions = {};
+  (function() {
+    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/PakAteMxLWW0AIsWrEVkNQ.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+  })();
+</script>
+
+    </div>
+    <script src="https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/js/jquery.qtip.js"></script>
+    <script type="text/javascript">
+      $(function(){
+      $("a.tooltip").qtip(
+      {
+      position:{
+        my: 'top left',
+        at: 'bottom right'
+      },
+      });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function(){
+      $("a.subscribe").click(function(event){
+      event.preventDefault();
+      me = $(this);
+      var pk= $(this).parent().attr('idnum');
+      var link="";
+      $.ajax({
+        type:"POST",
+        url:"/subscribe/book/0",
+        data:{'pk':pk},
+        cache:false,
+        beforeSend:function(){
+          me.addClass('loading');
+          me.attr('disabled','disabled');
+        },
+        success:function(data){
+          var data=eval('('+data+')');
+          if (data.success){
+          me.removeClass('loading');
+          me.text('已订阅');
+          me.attr('href',me.attr('href').replace('subscribe','unsubscribe'));
+          me.attr('class','unsubscribe actionButton textButton highlight');
+          me.removeAttr('href');
+          me.unbind('click');
+          }else{
+            me.removeClass('loading');	      
+            $('.error-notification').remove();
+            var $err=$('<div>').addClass('error-notification')
+	                       .html('<h2>'+data.error_msg +'</h2>(单击这里取消)')
+	                       .css('left',me.position().left);
+	    me.after($err);
+	    $err.fadeIn('fast');
+          }
+        },
+      });
+      });
+
+      $("a.unsubscribe").click(function(event){
+      event.preventDefault();
+      me = $(this);
+      var pk= $(this).parent().attr('idnum');
+      var link="";
+      $.ajax({
+        type:"POST",
+        url:"/unsubscribe/book/0",
+        data:{'pk':pk},
+        cache:false,
+        beforeSend:function(){
+          me.addClass('loading');
+          me.attr('disabled','disabled');
+        },
+        success:function(data){
+          var data=eval('('+data+')');      
+          if (data.success){
+          me.removeClass('loading');
+          me.text('已取消');
+          me.attr ('href', me.attr('href').replace('unsubscribe','subscribe'));
+          me.attr('class','unsubscribe actionButton textButton highlight');
+          me.removeAttr('href');
+          me.unbind('click');
+          }
+          else{
+            me.removeClass('loading');	
+            $('.error-notification').remove();
+            var $err=$('<div>').addClass('error-notification')
+	                       .html('<h2>'+data.error_msg +'</h2>(click)')
+	                       .css('left',me.position().left);
+	    me.after($err);
+	    $err.fadeIn('fast');
+          }
+        },
+      });
+      });
+
+      $('.error-notification').live('click',function(){
+	$(this).fadeOut('fast', function(){$(this).remove();})});
+      });
+    </script>
+    <script>
+      $("a.like").click(function(event){
+      event.preventDefault();
+      var pk=$(this).attr('pk');
+      thisl=$(this);
+      if ($(this).hasClass('liked')){
+      var unlikeurl="/book/0/unlike";
+      unlikeurl = unlikeurl.replace(/\d+/g,pk);
+      $.post(unlikeurl,{},
+      function(data){
+      if(data.success){
+      thisl.find('img').attr("src","https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png");
+      thisl.removeClass('liked');
+      }else{}},"json");
+      }else{
+      var likeurl="/book/0/like";
+      likeurl = likeurl.replace(/\d+/g,pk);
+      $.post(likeurl,{},function(data){if(data.success){thisl.find('img').attr("src","https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/liked.png");thisl.addClass('liked');}else{}},"json");
+      }
+      });
+
+      $("a.unlike").click(function(event){
+      event.preventDefault();
+      var pk=$(this).attr('pk');
+      thisl=$(this);
+      if ($(this).hasClass('unliked')){
+      var likeurl="/book/0/like";
+      likeurl = likeurl.replace(/\d+/g,pk);
+      $.post(likeurl,{},function(data){if(data.success){thisl.find('img').attr("src","https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/liked.png"); thisl.removeClass('unliked');}else{
+      }},"json");
+      }else{
+      var unlikeurl="/book/0/unlike";
+      unlikeurl = unlikeurl.replace(/\d+/g,pk);
+      $.post(unlikeurl,{},function(data){if(data.success){thisl.find('img').attr("src","https://s3-ap-northeast-1.amazonaws.com/ikindlestatic/media/pic/unliked.png");thisl.addClass('unliked');}else{}},"json");
+      }
+      });
+      
+    </script>	
+  </body>
+  <div id="footer" style="padding-top:50px;">
+    <a href="http://feeds.feedburner.com/ikindlemobi">rss</a>
+    <span style="color: #ccc;">•</span>
+    <a href="http://blog.ikindle.mobi">blog</a>
+    <span style="color: #ccc;">•</span>
+    <a href="http://weibo.com/ikindle4u">weibo</a>
+    <span style="color: #ccc;">•</span>
+    <a href="https://github.com/fengli/alipay_python" target="_blank">alipay-api</a> (python)
+    <span style="color: #ccc;">•</span>
+    <span style="color:#666;">style got from instapaper and dogear</span>
+    <div style="margin-top: 1em;">
+      ©&nbsp;2011 ikindle.mobi.
+    </div>
+  </div>
+</html>

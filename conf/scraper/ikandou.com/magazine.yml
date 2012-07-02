@@ -1,0 +1,27 @@
+---
+scraper:
+  - process:
+      - '//*[@id="tableViewCell176832828"]'
+      - book_info
+      - scraper:
+          - process:
+              - .tableViewCellTitleLink
+              - link
+              - @href
+              - name 
+              - TEXT
+          - process:
+              - .summary
+              - desc
+              - TEXT
+          - process:
+              - .host
+              - post_times
+              - __callback(_process_post_times)__
+          - process:
+              - /html/body/div[4]/div/div[4]/div/div[4]/span[6]
+              - download_times
+              - TEXT
+
+
+

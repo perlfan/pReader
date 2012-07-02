@@ -122,14 +122,42 @@ sub test_download{
 
 }
 
+sub test_proxy{
+    is($b->proxy,undef,'test not set proxy');
+    $b->proxy('http://www.baidu.com');
+    is($b->proxy,'http://www.baidu.com','test set proxy');
+    $b->clear_proxy;
+    is($b->proxy,undef,'test clear set proxy');
+}
+
+sub test_cookie_jar{
+    my $login_url = '';
+    my $ua = new Reader::Protocol::HTTP;
+    $ua->agent(
+        'Mozilla/4.0'
+    );
+    $ua->cookie_jar({});
+    my $cv = AnyEvent->condvar;
+    $cv->begin;
+    $ua->async_post(
+        'http://www.coolapk.com/do.php?ac=login&login=jinyiming321&pwd=19841002&remember=1',
+        sub {
+            my ($body,$hr) = @_;
+            my $res = new Reader::Protocol::HTTP::Response($hr,$body);
+            $cv->end;
+        }
+    );
+    $cv->recv;
+    is( scalar (keys $ua->cookie_jar ) > 1 ,1 ,'test cookie_jar return');
+    
+}
+
 test_init_func();
 test_download();
+test_proxy();
+test_cookie_jar();
 
-TODO: {
-        local $TODO = 'cookie_jar and proxy function need later';
-        warn $TODO;
-        my $ua = Reader::Protocol::HTTP->new();
-        is( $ua->cookie_jar(),1,'test cookie jar');
-        is( $ua->proxy(),1,'test proxy function');
-};
+# TODO test download file
+
+
 
