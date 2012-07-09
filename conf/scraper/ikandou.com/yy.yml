@@ -1,0 +1,30 @@
+---
+scraper:
+  - process:
+      - '//*[@id="bookmark_list"]'
+      - book_info
+      - scraper:
+          - process:
+              - 'div[id="tableViewCell176832828"]'
+              - 'list[]'
+              - scraper:
+                  - process:
+                      - span.subscribers
+                      - subscribers
+                      - TEXT
+                  - process:
+                      - div.summary
+                      - desc
+                      - TEXT
+                  - process:
+                      - a.tableViewCellTitleLink
+                      - name
+                      - __callback(_process_desc)__
+                  - process:
+                      - div.secondaryControls > span.host:nth-child(5)
+                      - post_times
+                      - __callback(_process_post_times)__
+                  - process:
+                      - a.actionLink
+                      - download_url
+                      - __callback(_process_download_url)__
