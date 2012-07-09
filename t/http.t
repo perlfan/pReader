@@ -22,7 +22,7 @@ use lib "$Bin/../lib";
 use Data::Dumper;
 use Smart::Comments;
 
-use Test::More tests => 1;    # last test to print
+use Test::More ;
 
 BEGIN {
     use_ok('Reader::Protocol::HTTP');
@@ -158,6 +158,7 @@ test_proxy();
 test_cookie_jar();
 
 # TODO test download file
+done_testing();
 
 
 
