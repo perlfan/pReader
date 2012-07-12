@@ -3,26 +3,27 @@ use warnings;
 use FindBin qw($Bin);
 use lib "$Bin/../lib";
 use Data::Dumper;
-use Smart::Comments ;
+use Smart::Comments;
+use HTML::TreeBuilder;
 use YAML qw(Dump);
 
 use Test::More tests => 3;    # last test to print
 
 BEGIN {
     use_ok('Reader::WebScraper::iKandou::Magazine');
-};
+}
 
-my $yaml = '/home/nightlord/james/pReader/conf/scraper/ikandou.com/yy.yml';
-my $spider = new Reader::WebScraper::iKandou::Magazine(
-    config => $yaml
-);
+my $yaml = "$Bin/../conf/scraper/ikandou.com/yy.yml";
+my $spider = new Reader::WebScraper::iKandou::Magazine( config => $yaml );
+
 #warn Dump $spider->scraper;
 
 ### test init config with yaml
 my $callbacks = $spider->callbacks;
-is( ref $spider->scraper,'Web::Scraper::Config','test scraper init object');
+is( ref $spider->scraper, 'Web::Scraper::Config', 'test scraper init object' );
 
 ### test parse html result
+
 =pod
     - desc: ' 发现创新价值的科技媒体 '
           download_url: http://ikandou.com/download/book/28
@@ -30,23 +31,41 @@ is( ref $spider->scraper,'Web::Scraper::Config','test scraper init object');
                       post_times: 4700
                             subscribers: 539
 =cut
+
 my $expect_html_result = {
     book_info => {
-            name => '爱范儿',
-            post_times => 4700,
-            download_url => 'http://ikandou.com/download/book/28',
-            desc => ' 发现创新价值的科技媒体 ',
-            subscribers => 539,
+        name         => '爱范儿',
+        post_times   => 4700,
+        download_url => 'http://ikandou.com/download/book/28',
+        desc         => ' 发现创新价值的科技媒体 ',
+        subscribers  => 539,
     }
 };
 warn Dump $expect_html_result;
 
-my $html = do { local $/; <DATA> };
-my $hashref = $spider->parse($html); 
+my $html         = do { local $/; <DATA> };
+my $hashref      = $spider->parse($html);
 my $test_hashref = $hashref->{book_info}{list}[7];
 warn Dump $test_hashref;
-is_deeply( $test_hashref,$expect_html_result->{book_info},'test parse html result ');
+is_deeply(
+    $test_hashref,
+    $expect_html_result->{book_info},
+    'test parse html result '
+);
 
+### test default parse callbacks
+TEST_CALL_BACKS: {
+    my $tree = new HTML::TreeBuilder;
+    $tree->parse($html);
+    $tree->eof;
+
+    my $form_node = $tree->look_down( id => 'tags' );
+    is( 
+        $form_node->as_HTML ne Reader::WebScraper::iKandou::Magazine->_process_del_attr($form_node),
+        1,
+        'test html del attr result'
+    );
+};
 done_testing(3);
 
 __DATA__
