@@ -152,6 +152,32 @@ sub test_cookie_jar{
     
 }
 
+sub test_download_file{
+    my $download_url = 'http://dl.coolapk.com/?dl=game%7C5017%7C120716%7C14625964%7Ccom.Zeroscale.DemolitionInc.hd%7CM0Tmi4bov4HpmJ9fRGVtb2xpdGlvbiBJbmMuSERfMjQuNjgzNTkuYXBr%7CDemolition-24.68359.apk';
+    my $local_file = "/tmp/xxx.apk";
+    my $browser = new Reader::Protocol::HTTP;
+    $browser->agent("firefox");
+    $browser->timeout(500);
+    my $cv = AnyEvent->condvar;
+    $cv->begin;
+    $browser->download(
+        $download_url,$local_file,sub {
+            my $result = shift;
+            if( $result ){
+                warn $result;
+                $cv->send('OK');
+            }else{
+                warn $result;
+                $cv->send('FAIL');
+            }
+        }
+    );
+    my $ret = $cv->recv;
+    is( $ret,'OK',"http download file $local_file OK!");
+    isnt( $ret,'OK',"http download file $local_file FAIL!");
+}
+
+test_download_file();
 test_init_func();
 test_download();
 test_proxy();
