@@ -78,16 +78,16 @@ has 'proxy' => (
     lazy    => 1,
 );
 has 'on_header' => (
-    is => 'rw',
-    isa => "Any",
+    is      => 'rw',
+    isa     => "Any",
     default => sub { {} },
-    lazy => 1,
+    lazy    => 1,
 );
 has 'on_body' => (
-    is => 'rw',
-    isa => 'Any',
+    is      => 'rw',
+    isa     => 'Any',
     default => sub { {} },
-    lazy => 1,
+    lazy    => 1,
 );
 
 sub BUILD {
@@ -231,15 +231,34 @@ sub _request {
     # init http_request args
 
     $self->HEAD( $self->uri( URI->new( $args{url} ) )->host( $args{url} ) );
-    my %option = (
-        ( $args{method} || $self->method ) => delete $args{url},
-        HEAD       => $self->HEAD,
-        keepalive  => $self->keepalive,
-        timeout    => $self->timeout,
-        headers    => $self->headers,
-        recurse    => $self->recurse,
-        cookie_jar => $self->cookie_jar,
-    );
+
+    if ( ref( $self->on_header ) eq 'CODE' || ref( $self->on_body ) eq 'CODE' )
+    {
+        http_request(
+            ( $args{method} || $self->method ) => delete $args{url},
+            HEAD       => $self->HEAD,
+            keepalive  => $self->keepalive,
+            timeout    => $self->timeout,
+            headers    => $self->headers,
+            recurse    => $self->recurse,
+            cookie_jar => $self->cookie_jar,
+            on_header  => $self->on_header,
+            on_body    => $self->on_body,
+            $args{cb},
+        );
+    }
+    else {
+        http_request(
+            ( $args{method} || $self->method ) => delete $args{url},
+            HEAD       => $self->HEAD,
+            keepalive  => $self->keepalive,
+            timeout    => $self->timeout,
+            headers    => $self->headers,
+            recurse    => $self->recurse,
+            cookie_jar => $self->cookie_jar,
+            $args{cb},
+        );
+    }
 
 =pod
     if ( ref( $self->on_header ) eq 'CODE' ) {
@@ -249,13 +268,14 @@ sub _request {
         $args{on_body} = $self->on_body;
     }
 =cut
-    http_request( %option, $args{cb} );
+
+    #    http_request( %option, $args{cb} );
     return 1;
 }
 
 sub download {
     my ( $self, $download_url, $file, $cb ) = @_;
-    open my $fh, '+<',$file, 
+    open my $fh, '+<', $file,
       or die "$file : $!";
 
     my %head_response;

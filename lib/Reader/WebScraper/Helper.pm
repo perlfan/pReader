@@ -9,7 +9,6 @@ my @inline_elements = qw(
   span ins iframe style script center meta time
 );
 
-
 sub _process_del_attr {
     my $self = shift;
     my $element = shift;
