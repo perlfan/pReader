@@ -5,8 +5,6 @@ use Moose;
 use namespace::autoclean;
 use AnyEvent::HTTP;
 use TryCatch;
-use Smart::Comments '###', '####';
-use Moose::Util::TypeConstraints;
 use HTTP::Response;
 use HTTP::Headers;
 
@@ -35,7 +33,6 @@ has 'response' => (
     default => sub { {} },
     lazy    => 1
 );
-
 around BUILDARGS => sub {
     my $orig  = shift;
     my $class = shift;
@@ -76,7 +73,7 @@ around BUILDARGS => sub {
         $class->$orig(@args);
     }
 };
-
+no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;

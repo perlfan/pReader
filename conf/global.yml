@@ -1,0 +1,10 @@
+---
+db:
+  host: localhost
+  passwd: 19841002
+  port: 3306
+  user: james
+scraper:
+  www.ikindou.com:
+    Magazine: www.ikindou.com/magazine.yml
+template_path: '~/code/pReader/conf/scraper/'
