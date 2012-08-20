@@ -31,7 +31,7 @@ is($mobi_helper->convert_pod2mobi($pod_str,$mobi_file),1,'test ebook pod->mobi')
 is( $t->app->convert_pod2mobi($pod_str) =~ m/mobi$/,
     1, 'test convert_pod2mobi ok' );
 is( $t->app->convert_pod2epub($pod_str) =~ m/epub$/,
-    1, 'test convert_pod2epub ok' );
+   1, 'test convert_pod2epub ok' );
 is( $t->app->convert_pods2mobi($pod_str) =~ m/epub$/,
     1, 'test convert_pod2epub ok' );
 is( $t->app->convert_pods2epub($pod_str) =~ m/epub$/,

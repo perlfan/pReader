@@ -8,14 +8,15 @@ use Carp;
 sub is_cache {
     my ( $self, $file ) = @_;
     my $is_cache;
+
     if ( -e $file and -s $file > 0 and $self->verify_ebook($file) ) {
         $is_cache = 1;
     }
     else {
-        system("rm $file");
-        system("touch $file");
-        $is_cache = 0;
+        unlink $file or Carp::croak("rm file $file failed");
+        !system("touch $file") or Carp::croak("touch file $file failed");
     }
+
     return $is_cache;
 }
 
@@ -29,7 +30,7 @@ sub verify_ebook {
       or Carp::croak("this is a invalid file");
     while (<FD>) {
         chomp;
-        if (/$ebook_extension/i and /E-book/i) {
+        if ( /$ebook_extension/i and /E-book/i ) {
             $is_ebook = 1;
         }
     }
